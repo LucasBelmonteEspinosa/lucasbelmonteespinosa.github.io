@@ -1,0 +1,293 @@
+/*@function grid($col, $max-col){
+    @return  calc(100/$max-col*$col)+%;}
+
+
+@for $i from 1 to 12{
+    .col-1 { width: (grid());
+    }
+}
+*/
+.row {
+  display: flex;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@font-face {
+  font-family: philosopher;
+  src: url(/fonts/philosopher/Philosopher-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0%;
+  background-color: #FFF5E1;
+}
+
+.cabecera {
+  background-color: #FFF5E1;
+}
+
+.logo {
+  margin-left: 2rem;
+}
+
+.imagen {
+  width: 100%;
+  z-index: -1;
+}
+
+.espana {
+  display: flex;
+  align-items: center;
+}
+.espana img {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apartados {
+  text-decoration: none;
+  width: 20rem;
+  color: #D2691E;
+  text-align: center;
+  font-family: Lato;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cont-imagen {
+  position: relative;
+  text-align: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 74%, 50% 90%, 0% 74%);
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+  font-family: philosopher;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-shadow: -2px -2px 0 #6F4141, 2px -2px 0 #6F4141, -2px 2px 0 #6F4141, 2px 2px 0 #6F4141;
+}
+
+.centered2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+  font-family: philosopher;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-shadow: -2px -2px 0 #6F4141, 2px -2px 0 #6F4141, -2px 2px 0 #6F4141, 2px 2px 0 #6F4141;
+}
+
+.titulo-receta {
+  position: relative;
+  align-items: center;
+  height: 2rem;
+}
+.titulo-receta p {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFD700;
+  font-family: Lato;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  text-shadow: 0px 0px 5px rgba(4, 4, 4, 0.9);
+}
+
+.contenedor-imagenes {
+  position: relative;
+  height: 15rem;
+}
+
+.contenedor-texto {
+  position: relative;
+  height: 10rem;
+}
+
+.harina {
+  position: absolute;
+  width: 8rem;
+  height: 10rem;
+  top: 130%;
+  left: 22%;
+}
+
+.agua {
+  position: absolute;
+  width: 8rem;
+  height: 9rem;
+  top: 80%;
+  left: 40%;
+}
+
+.sal {
+  position: absolute;
+  width: 8rem;
+  height: 9rem;
+  top: 130%;
+  left: 55%;
+}
+
+.masa {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  top: 180%;
+  left: 40%;
+}
+
+.lorem {
+  position: absolute;
+  color: #D2B48C;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  top: 130%;
+  left: 40%;
+}
+
+.reloj {
+  position: absolute;
+  width: 15rem;
+  height: 16rem;
+  top: 125%;
+  left: 35%;
+}
+
+.secciones {
+  height: 30rem;
+}
+
+.pan {
+  position: absolute;
+  width: 28rem;
+  height: 16rem;
+  top: 125%;
+  left: 23%;
+}
+
+.horno {
+  position: absolute;
+  width: 15rem;
+  height: 19rem;
+  top: 105%;
+  left: 35%;
+}
+
+.final {
+  margin-bottom: 20rem;
+}
+
+.footer {
+  background-color: #FFE4B5;
+}
+
+.logo-footer {
+  margin-left: 2rem;
+  margin: 5%;
+  width: 20rem;
+  height: 5rem;
+}
+
+.logo-header {
+  margin-left: 2rem;
+  width: 33rem;
+  height: 8em;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+}
+.autor p {
+  margin-left: 16%;
+  color: #D2691E;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=principal.css.map */
