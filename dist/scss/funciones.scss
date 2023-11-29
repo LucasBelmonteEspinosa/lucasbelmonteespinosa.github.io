@@ -1,6 +1,3 @@
-/// @access public
-/// @author Lucas Belmonte Espinosa
-
 /*@function grid($col, $max-col){
     @return  calc(100/$max-col*$col)+#{"%"};}
 
@@ -15,8 +12,6 @@
     display: flex;
 }
 
-/// @param {numero} $col Este parámetro indica el número de columnas que se van a utilizar
-/// @param {numero} $max-column Este parámetro indica el número máximo de columnas, en este caso 12
 
 @function grid($col, $max-column) {
     @return (100/$max-column*$col)+#{"%"};
